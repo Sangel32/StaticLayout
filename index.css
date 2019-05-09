@@ -1,0 +1,34 @@
+body {
+    background-image: url(officenetflix.jpg);
+}
+.img {
+    width: 1px;
+    height: 100px;
+}
+.navbar{
+    background-color: black;
+    z-index: 2;
+    width: 99vw;
+    position: absolute;
+    top:-10px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar li {
+    float: right;
+}
+.navbar li a:hover {
+    background-color: white;
+}
+.navbar li a{
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
